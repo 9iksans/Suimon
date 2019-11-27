@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "20305351733",
+    "firebase_url": "https://suimon2.firebaseio.com",
+    "project_id": "suimon2",
+    "storage_bucket": "suimon2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20305351733:android:9caf478e90dd7526c90d7c",
+        "android_client_info": {
+          "package_name": "com.example.suimon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20305351733-0hkhcc893v6aatgplui7ash2er4p2040.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.suimon",
+            "certificate_hash": "893d971ec368765761373c4de854c5246a1c2c04"
+          }
+        },
+        {
+          "client_id": "20305351733-0in4f3qnm12ktgg4h1ai7cs2ta82t7sv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVcCKXs3hUFUZ-LLjvbyYu9jtN31O28Rg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20305351733-0in4f3qnm12ktgg4h1ai7cs2ta82t7sv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

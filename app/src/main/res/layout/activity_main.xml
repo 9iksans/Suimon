@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/transitionContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbg"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="140dp"
+        android:alpha=".75"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/transparent" />
+
+    <TextView
+        android:id="@+id/textProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/tarantel"
+        android:text="Profile Suimon Admin"
+        android:textColor="#fff"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/seekBar" />
+
+    <ImageView
+        android:id="@+id/imageViewPhoto"
+        android:layout_width="81dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="20dp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar"
+        app:srcCompat="@drawable/photo_profile" />
+
+    <ImageButton
+        android:id="@+id/imageLogout"
+        android:layout_width="78dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#00FFFFFF"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:srcCompat="@drawable/logoutbutton" />
+
+    <TextView
+        android:id="@+id/textProfile2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/tarantel"
+        android:text="Luqman"
+        android:textColor="#fff"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/seekBar" />
+
+    <TextView
+        android:id="@+id/textProfile3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/tarantel"
+        android:text="luqmanhakimiksan@gmail.com"
+        android:textColor="#CAD6DF"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/textProfile" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bottomcontrol"
+        tools:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="55dp"
+        android:fontFamily="@font/tarantel"
+        android:lineSpacingExtra="8.3sp"
+        android:text="Dashboard"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="20sp"
+        android:fontFamily="@font/tarantel"
+        android:lineSpacingExtra="8.3sp"
+        android:text="Suimon"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButtonProfile"
+        app:layout_constraintEnd_toEndOf="@+id/imageView6"
+        app:srcCompat="@drawable/water"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/tarantel"
+        android:text="from the surface"
+        android:textColor="#476982"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textViewUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/tarantel"
+        android:text="25"
+        android:textColor="#000"
+        android:textSize="70sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="45sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/tarantel"
+        android:text="cm"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textViewUs"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/tarantel"
+        android:text="Current Water Level"
+        android:textColor="#000"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageViewMore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="5dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bottomlong" />
+
+    <ImageButton
+        android:id="@+id/imageButtonMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#02FFFFFF"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/morestate" />
+
+    <ImageButton
+        android:id="@+id/imageButtonadwal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@drawable/adwal"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButtonProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#00FFFFFF"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/profile" />
+
+    <ImageView
+        android:id="@+id/imageViewWaterUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="@+id/imageViewMore"
+        app:srcCompat="@drawable/water" />
+
+    <TextView
+        android:id="@+id/textViewUsUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/tarantel"
+        android:text="25"
+        android:textColor="#000"
+        android:textSize="70sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewMore" />
+
+
+    <TextView
+        android:id="@+id/textViewCmUp"
+        android:layout_width="45sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/tarantel"
+        android:text="cm"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintStart_toEndOf="@+id/textViewUsUp"
+        app:layout_constraintTop_toTopOf="@+id/imageViewMore" />
+
+    <TextView
+        android:id="@+id/textView6Up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/tarantel"
+        android:text="Current Water Level"
+        android:textColor="#000"
+        android:textSize="10sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="@+id/imageViewMore" />
+
+    <TextView
+        android:id="@+id/textView3Up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="140dp"
+        android:fontFamily="@font/tarantel"
+        android:text="from the surface"
+        android:textColor="#476982"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="@+id/imageViewMore" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/tarantel"
+        android:text="Controling water Info:"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@+id/imageViewMore"
+        app:layout_constraintTop_toBottomOf="@+id/textView3Up" />
+
+    <TextView
+        android:id="@+id/textViewExp1"
+        android:layout_width="324dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/tarantel"
+        android:text="The Officer can control the floodgate by him/herself, by draging bellow"
+        android:textColor="#000"
+        android:textSize="9sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@+id/imageViewMore"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textViewExp2"
+        android:layout_width="279dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="22dp"
+        android:fontFamily="@font/tarantel"
+        android:text="but you have to disable adwal feature,adwal is feature that could controll floodgate
+adaptively without Officer controll"
+        android:textColor="#000"
+        android:textSize="9sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@+id/imageViewMore"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textViewPresentase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="245dp"
+        android:fontFamily="@font/tarantel"
+        android:text="0"
+        android:textColor="#ACACAC"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@+id/textViewPersen"
+        app:layout_constraintTop_toTopOf="@+id/imageViewMore" />
+
+    <TextView
+        android:id="@+id/textViewPersen"
+        android:layout_width="48dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="245dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/tarantel"
+        android:text="%"
+        android:textColor="#ACACAC"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewMore"
+        app:layout_constraintTop_toTopOf="@+id/imageViewMore" />
+
+    <TextView
+        android:id="@+id/textViewHowmuch"
+        android:layout_width="202dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="255dp"
+        android:fontFamily="@font/tarantel"
+        android:text="How much Suimon want to open"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@+id/imageViewMore"
+        app:layout_constraintTop_toTopOf="@+id/imageViewMore" />
+
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="350dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="335dp"
+        android:layout_marginEnd="20dp"
+        android:progressDrawable="@drawable/progress_control"
+        android:thumb="@drawable/dot_normal"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewMore"
+        app:layout_constraintStart_toStartOf="@+id/imageViewMore"
+        app:layout_constraintTop_toTopOf="@+id/imageViewMore" />
+
+
+</android.support.constraint.ConstraintLayout>
+
